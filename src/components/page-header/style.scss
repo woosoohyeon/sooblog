@@ -6,7 +6,6 @@
   width: 100%;
   height: 60px;
 
-
   .page-header {
     display: flex;
     align-items: center;
@@ -22,6 +21,14 @@
         font-weight: 700;
         font-size: 20px;
       }
+
+      h1 {
+        font-size: 1.8rem;
+        font-family: 'BMJUA';
+        .strawberry {
+          color: #f08080;
+        }
+      }
     }
 
     .trailing-section {
@@ -35,8 +42,6 @@
           margin-right: 20px;
         }
       }
-
-
     }
   }
 }
