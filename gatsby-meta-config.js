@@ -14,7 +14,12 @@ module.exports = {
     name: `우수현`,
     bio: {
       role: `QA`,
-      description: ['딸기를 좋아하는', '화덕피자를 좋아하는', '이로운 것을 만드는'],
+      description: [
+        '딸기를 좋아하는',
+        '화덕피자를 좋아하는',
+        '다쿠아즈를 좋아하는',
+        '뮤직 이즈 마이 라이프인',
+      ],
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
     social: {

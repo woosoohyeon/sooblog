@@ -28,9 +28,16 @@ function PageHeader({ siteTitle }) {
         <header className="page-header-wrapper">
           <div className="page-header">
             <div className="front-section">
-              <Link className="link" to="/">
-                {siteTitle}
-              </Link>
+              <Link
+                className="link"
+                to="/"
+                dangerouslySetInnerHTML={{
+                  __html: `<h1>${siteTitle.replace(
+                    '딸기',
+                    `<span class="strawberry">딸기</span>`,
+                  )}</h1>`,
+                }}
+              ></Link>
             </div>
             <div className="trailing-section">
               <Link className="link" to="/about">
